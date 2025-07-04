@@ -1,0 +1,27 @@
+01- Entrada
+Linha 34: opçao - input('Escolha uma opção: ')
+Explicaçao: O programa solicita que o usuário escolha entre jogar ou sair.
+
+2- Saída
+Linha 31: opçao - print('[1] Jogar dado')
+Explicaçao: Exibe a opção no menu (há várias outras saídas semelhantes com print() ao longo do código).
+
+3- Estrutura de condiçao
+Linha 35: opçao - if opcao in ['1', '0']:
+Explicaçao: Verifica se a opçao é valida
+
+4- Funçoes
+Linha 15: opçao - def limpar_tela():
+Explicaçao: Essa é uma das várias funções definidas para organizar as ações do jogo.
+
+5- Biblioteca 
+Linha 6: opçao - import random
+Explicaçao: É usado para sortear numeros aleatorio
+
+6- Operadores
+Linha 67: opçao - resultado = random.randint(1, 6)
+Explicaçao: Aqui temos o operador de atribuição e os parentes usados na chamada da função.
+
+7- Variavel
+Linha 11: opçao - resultado = 0
+Explicaçao: a variavel "resultado" armazena o valor no lançamento do dado virtual 
